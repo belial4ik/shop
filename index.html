@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>shop</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <h2>Shopping</h2>
+        <a id="link" href="basket.html">basket : <span id="basket">0</span> ></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="sorting-checkbox">
+      <!-- <label for="products">sort by :</label> -->
+      <select name="products" id="sort-by">
+        <option value="default">default</option>
+        <option value="low-price">price Low -> High</option>
+      </select>
+      <button id="sorting">sort</button>
+    </div>
+    <div class="cards"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>All right reserved</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
